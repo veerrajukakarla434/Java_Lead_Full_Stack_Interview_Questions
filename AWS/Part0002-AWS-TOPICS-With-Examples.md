@@ -1,0 +1,372 @@
+# AWS Topics and Queries
+
+#### What is Lambda in WAS and purpose of Lambda ?
+
+* **1) What is IAM in AWS and purpose of IAM**
+* **2) Real-world IAM setup for a Java Spring Boot app running on EC2, Lambda** 
+* **3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot**
+* **4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain**
+* **5) What is AWS RDS ?**
+* **6) What is VPC and What is EC2 in AWS**
+* **7) What is the purpose of SQS, SNS  in AWS, Give in detail**
+* **8) What is CLoud watch and purpose of CLoud watch in AWS**
+* **9) What is evenbidge ?  cloud watch vs event bridge** 
+* **10) what is ECS ? EKS ? and ECS vs EKS**
+* **11) What is Fargate in AWS ?**
+* **12) what is Avalability zones in AWS ?**
+* **13) what is serverless architecture in aws Purpose and use cases , give in detail**
+    
+* **14) give top 50 AWS + Java Spring Boot high-level interview Q&A in detail**
+* G- Gemin -> https://gemini.google.com/app/9bf36e5678cac84e
+* Chat-GPT -> https://chatgpt.com/c/68978562-2b30-8332-a7d6-63778f67f063
+
+* **15) Top 10 questions and answers for AWS with Spring boot/Java Application**
+* G-Gemini ->  https://gemini.google.com/app/0e6462819b9b95f0
+* Chat- GPT -> https://chatgpt.com/c/6897874b-d6ac-832b-8be2-400c287d1bf8
+
+*  **16) AWS Road Map and interview questions**
+*  Chat GPT -> https://chatgpt.com/c/68916221-2dfc-8333-9cc8-46dacdf4afde
+* **17) What is provisioning in AWS**
+* **18) what is S3 bucket in AWS and what kind of storage it is offering and what are the levels in S3**
+* **19) What is mean by infrastructure as a service in AWS**
+* **20) How to scale up and scale down in AWS- EC2 spring boot example**
+* **21) What is mean by vertical and horizontal scaling in terms of Spring boot Application load. How to configure if I am using Open Shift cloud**
+#### Java8 Stream employee interview questions -> https://chatgpt.com/c/68e7ba9f-91e8-8321-9b5c-14fc81c20f8d
+  
+
+#### What is Lambda in WAS and purpose of Lambda ?
+
+<img width="817" height="655" alt="image" src="https://github.com/user-attachments/assets/e36a36aa-969e-4fb4-9c8b-ccb1a3bbb2ec" />
+
+<img width="820" height="565" alt="image" src="https://github.com/user-attachments/assets/b16d6c2e-4c79-4d11-a80a-3271202fc277" />
+
+<img width="808" height="472" alt="image" src="https://github.com/user-attachments/assets/a4976a99-21b9-4829-af3d-2212660cdcc7" />
+
+<img width="821" height="669" alt="image" src="https://github.com/user-attachments/assets/71c54424-16e8-4724-be67-722d2c078d61" />
+
+<img width="812" height="406" alt="image" src="https://github.com/user-attachments/assets/13311257-9975-444d-9652-213a1622c87b" />
+
+<img width="816" height="601" alt="image" src="https://github.com/user-attachments/assets/4f76cde7-eb5f-4d4f-9248-8e2a963368c9" />
+
+<img width="820" height="665" alt="image" src="https://github.com/user-attachments/assets/31b75e3e-fd4a-492c-ace9-ee3a97546bc5" />
+
+<img width="814" height="657" alt="image" src="https://github.com/user-attachments/assets/578eae9b-fdc6-41a1-bea7-a3aba0c6a718" />
+
+<img width="801" height="208" alt="image" src="https://github.com/user-attachments/assets/9ec59c91-1472-4ac8-8404-614a75fc107e" />
+
+
+
+#### 1) What is IAM in AWS and purpose of IAM
+
+<img width="787" height="286" alt="image" src="https://github.com/user-attachments/assets/d73baf0f-61e7-405d-b9a8-96caba062ec6" />
+
+<img width="831" height="536" alt="image" src="https://github.com/user-attachments/assets/82b3e421-f8f9-446d-85e5-829d088bf08f" />
+
+<img width="805" height="614" alt="image" src="https://github.com/user-attachments/assets/461beb40-c941-4b3c-a233-ed97844f87aa" />
+
+<img width="810" height="656" alt="image" src="https://github.com/user-attachments/assets/767e4583-0828-482a-bd44-774b5223b379" />
+
+<img width="829" height="523" alt="image" src="https://github.com/user-attachments/assets/7e96971a-9c6a-4f4b-add6-d21b2352d39f" />
+
+<img width="816" height="698" alt="image" src="https://github.com/user-attachments/assets/56ce2dcc-b96a-4820-89e8-181a1e3b89c9" />
+
+<img width="813" height="506" alt="image" src="https://github.com/user-attachments/assets/3c751b9a-b083-4f50-af28-b4560b6472a2" />
+
+<img width="801" height="758" alt="image" src="https://github.com/user-attachments/assets/2e50442e-1574-4713-9f26-abdd7c851dc3" />
+
+#### 2) Real-world IAM setup for a Java Spring Boot app running on EC2, Lambda
+
+<img width="841" height="545" alt="image" src="https://github.com/user-attachments/assets/e09c8170-cb80-44b2-882c-cecbe1959f3e" />
+
+<img width="786" height="646" alt="image" src="https://github.com/user-attachments/assets/1fb25431-06a9-4a28-833c-a10379351372" />
+
+<img width="827" height="661" alt="image" src="https://github.com/user-attachments/assets/d6b30996-8cc1-4c3d-95de-2e6fc3e8f4f2" />
+
+<img width="834" height="497" alt="image" src="https://github.com/user-attachments/assets/0b64736d-bb12-452f-adbf-e8b8660ce1a0" />
+
+<img width="819" height="568" alt="image" src="https://github.com/user-attachments/assets/81350d5b-0179-410a-96f7-03004ffd279c" />
+
+<img width="848" height="581" alt="image" src="https://github.com/user-attachments/assets/56708ac0-87aa-46c8-b748-3b3aa710b57d" />
+
+<img width="757" height="472" alt="image" src="https://github.com/user-attachments/assets/0a2ed0e4-d329-4d72-8f65-1c2de820f8b9" />
+
+<img width="729" height="158" alt="image" src="https://github.com/user-attachments/assets/b99a6d4e-1477-4bd2-a888-78806f9634d4" />
+
+<img width="739" height="531" alt="image" src="https://github.com/user-attachments/assets/8ddd021c-2bcc-4148-b4bf-5bec1d3d9a37" />
+
+<img width="773" height="554" alt="image" src="https://github.com/user-attachments/assets/cf531e4d-13d7-4dce-8751-e95008f186ac" />
+
+<img width="758" height="496" alt="image" src="https://github.com/user-attachments/assets/8a430f0f-8e0c-4c19-b0ed-05d8915fd466" />
+
+<img width="768" height="528" alt="image" src="https://github.com/user-attachments/assets/07d5d9c8-c2c8-4e67-a73c-1940904c2eae" />
+
+<img width="754" height="452" alt="image" src="https://github.com/user-attachments/assets/9d36f382-110c-416e-a6b4-72e13b918491" />
+
+<img width="770" height="245" alt="image" src="https://github.com/user-attachments/assets/eff6d611-cecb-487e-bbd5-5099486afd5d" />
+
+#### 3) Give a Proper example and explain in detail of save data in S3 bucket using lambda communication between S3 with lambda  Using Java Spring Boot
+
+<img width="826" height="622" alt="image" src="https://github.com/user-attachments/assets/a3f2aafd-fa5e-4a27-8615-6234a0eb8434" />
+
+<img width="802" height="497" alt="image" src="https://github.com/user-attachments/assets/c6912a0c-ec9a-43a7-bf72-39321415b3d7" />
+
+<img width="806" height="627" alt="image" src="https://github.com/user-attachments/assets/95aa3b7e-9e9f-412d-b944-6100af7d1e29" />
+
+```java
+package com.example.lambda;
+
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+import software.amazon.awssdk.auth.credentials.EnvironmentVariableCredentialsProvider;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.model.PutObjectRequest;
+
+import java.util.Base64;
+import java.util.Map;
+
+public class UploadToS3Lambda implements RequestHandler<Map<String, String>, String> {
+
+    private final S3Client s3 = S3Client.builder()
+            .region(Region.AP_SOUTH_1)
+            .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
+            .build();
+
+    private final String bucketName = "my-demo-bucket-veer";
+
+    @Override
+    public String handleRequest(Map<String, String> input, Context context) {
+        try {
+            String fileName = input.get("fileName");
+            String base64Content = input.get("content");
+            byte[] contentBytes = Base64.getDecoder().decode(base64Content);
+
+            PutObjectRequest putObjectRequest = PutObjectRequest.builder()
+                    .bucket(bucketName)
+                    .key(fileName)
+                    .build();
+
+            s3.putObject(putObjectRequest, software.amazon.awssdk.core.sync.RequestBody.fromBytes(contentBytes));
+            return "File uploaded to S3: " + fileName;
+        } catch (Exception e) {
+            return "Error: " + e.getMessage();
+        }
+    }
+}
+
+```
+<img width="828" height="498" alt="image" src="https://github.com/user-attachments/assets/b2681955-3e0a-489d-b4c3-5bc4cc4cd021" />
+
+```java
+@RestController
+@RequestMapping("/upload")
+public class UploadController {
+
+    private final LambdaClient lambdaClient;
+
+    public UploadController() {
+        this.lambdaClient = LambdaClient.builder()
+                .region(Region.AP_SOUTH_1)
+                .credentialsProvider(EnvironmentVariableCredentialsProvider.create())
+                .build();
+    }
+
+    @PostMapping
+    public ResponseEntity<String> uploadToS3(@RequestParam("file") MultipartFile file) throws IOException {
+        String fileName = file.getOriginalFilename();
+        byte[] content = file.getBytes();
+        String base64 = Base64.getEncoder().encodeToString(content);
+
+        String jsonPayload = new ObjectMapper().writeValueAsString(Map.of(
+                "fileName", fileName,
+                "content", base64
+        ));
+
+        InvokeRequest request = InvokeRequest.builder()
+                .functionName("upload-to-s3-lambda") // Lambda function name
+                .payload(SdkBytes.fromUtf8String(jsonPayload))
+                .build();
+
+        InvokeResponse response = lambdaClient.invoke(request);
+        String result = response.payload().asUtf8String();
+
+        return ResponseEntity.ok(result);
+    }
+}
+
+```
+<img width="815" height="534" alt="image" src="https://github.com/user-attachments/assets/5d59b643-b1ca-4647-a3bf-8567a9c4db09" />
+
+<img width="873" height="540" alt="image" src="https://github.com/user-attachments/assets/be8643ac-e5e8-48c8-b24d-8145ef2afe9d" />
+
+#### 4) What is AWS Services and Manager Services vs Build in Services and Purpose of Manager Services vs Build in Services , give proper example and explain
+
+<img width="808" height="423" alt="image" src="https://github.com/user-attachments/assets/7300fda5-2f2b-487d-81b1-3360548cfd13" />
+
+<img width="817" height="744" alt="image" src="https://github.com/user-attachments/assets/75901ab7-ec00-4c3a-976f-631fe5b56455" />
+
+<img width="776" height="718" alt="image" src="https://github.com/user-attachments/assets/6544ce64-131d-46ca-ba71-78f9a0c10b26" />
+
+<img width="812" height="669" alt="image" src="https://github.com/user-attachments/assets/72b82199-c4b6-46c3-9ab7-52c20da2e8b2" />
+
+<img width="825" height="160" alt="image" src="https://github.com/user-attachments/assets/9e2fc830-3492-411b-89a8-49de5e627497" />
+
+<img width="883" height="514" alt="image" src="https://github.com/user-attachments/assets/b6f78a0b-0e83-45da-a870-243abcbd211f" />
+
+<img width="830" height="271" alt="image" src="https://github.com/user-attachments/assets/ed5f0709-4803-4ce1-adc0-316ed9596428" />
+
+
+#### 5) What is AWS RDS ?
+
+<img width="830" height="324" alt="image" src="https://github.com/user-attachments/assets/de9e31e4-c11b-4ca0-8c9e-d7ba3f0d5a86" />
+
+<img width="822" height="440" alt="image" src="https://github.com/user-attachments/assets/5814a0e8-d13d-4861-8be3-cea2ec797c21" />
+
+<img width="822" height="440" alt="image" src="https://github.com/user-attachments/assets/3a0fa400-9d5e-410e-b0fc-8f9557ce852c" />
+
+<img width="829" height="422" alt="image" src="https://github.com/user-attachments/assets/4dfb8105-5cfa-445d-aab0-d491ff17aac5" />
+
+<img width="823" height="679" alt="image" src="https://github.com/user-attachments/assets/490a0cc1-61b8-4db5-882c-e23398717c73" />
+
+<img width="803" height="595" alt="image" src="https://github.com/user-attachments/assets/23cacd1c-ff15-49a1-98df-e88d908bdcf3" />
+
+<img width="754" height="312" alt="image" src="https://github.com/user-attachments/assets/1b73ac8d-473a-4b9c-acb3-7408be7a9110" />
+
+<img width="824" height="677" alt="image" src="https://github.com/user-attachments/assets/7730a50a-ea8b-4a3a-be08-1b4e73fd985b" />
+
+<img width="852" height="603" alt="image" src="https://github.com/user-attachments/assets/295fe2c2-a74d-4d8e-9bbc-aa2e27e022dc" />
+
+<img width="801" height="643" alt="image" src="https://github.com/user-attachments/assets/342e9acb-da91-46fe-9dc0-5d83d3b7694d" />
+
+<img width="817" height="648" alt="image" src="https://github.com/user-attachments/assets/6112ee3c-b754-49b7-99b0-4056f6cb3c10" />
+
+<img width="789" height="441" alt="image" src="https://github.com/user-attachments/assets/7671e88d-f79d-453f-80e4-708eef226c5d" />
+
+<img width="808" height="383" alt="image" src="https://github.com/user-attachments/assets/e682ec89-5fec-419c-a532-704e072ef128" />
+
+#### 6) What is VPC and What is EC2 in AWS
+
+<img width="832" height="595" alt="image" src="https://github.com/user-attachments/assets/6dc7f74b-3c5a-44f0-bad7-145f62d5a13f" />
+
+<img width="807" height="545" alt="image" src="https://github.com/user-attachments/assets/0c1f7e98-17df-4619-9f67-b2f77334838a" />
+
+<img width="845" height="470" alt="image" src="https://github.com/user-attachments/assets/107542c6-c824-4401-b658-6e6ab4305a2e" />
+
+<img width="610" height="422" alt="image" src="https://github.com/user-attachments/assets/18d6c094-22e8-4ce7-8e4d-92f652d0820e" />
+
+#### 7) What is the purpose of SQS, SNS  in AWS, Give in detail
+
+<img width="815" height="462" alt="image" src="https://github.com/user-attachments/assets/76621d9d-0203-4372-a842-19b1fdd2cb6b" />
+
+<img width="806" height="714" alt="image" src="https://github.com/user-attachments/assets/2f5eb4a0-b04d-4a7d-90a0-c5f5812b6eaa" />
+
+<img width="802" height="573" alt="image" src="https://github.com/user-attachments/assets/46a1c63d-9484-43e8-940a-64a6c49712b1" />
+
+<img width="819" height="615" alt="image" src="https://github.com/user-attachments/assets/b644aaa3-d86a-4f2d-bae5-fb088a0ce3f2" />
+
+<img width="818" height="562" alt="image" src="https://github.com/user-attachments/assets/660f0aba-d43d-44ab-96a0-e83ca5f48820" />
+
+<img width="794" height="732" alt="image" src="https://github.com/user-attachments/assets/38c33b77-7471-4da4-9eb9-e2324015d484" />
+
+<img width="790" height="604" alt="image" src="https://github.com/user-attachments/assets/e8828fc8-61be-429e-840c-019e3c7cf3fb" />
+
+<img width="797" height="664" alt="image" src="https://github.com/user-attachments/assets/13d1d34f-aa9f-43e2-b064-eef2b542e836" />
+
+#### 8) What is CLoud watch and purpose of CLoud watch in AWS**
+
+<img width="827" height="755" alt="image" src="https://github.com/user-attachments/assets/dd907066-7060-47fc-97e5-b5a1c17eecd1" />
+
+<img width="796" height="389" alt="image" src="https://github.com/user-attachments/assets/0789d73b-7714-451f-a36e-bdada3efe541" />
+
+<img width="814" height="561" alt="image" src="https://github.com/user-attachments/assets/90d75917-237e-43cc-99f4-35635f68638e" />
+
+#### 9) What is evenbidge ?  cloud watch vs event bridge
+
+<img width="838" height="690" alt="image" src="https://github.com/user-attachments/assets/f4f775c9-59b0-4d18-8ac7-aa19af159d6c" />
+
+<img width="838" height="671" alt="image" src="https://github.com/user-attachments/assets/31d1fadf-94d5-40d7-bf4d-f6d91d98a274" />
+
+<img width="846" height="624" alt="image" src="https://github.com/user-attachments/assets/e210719f-6fdd-4be1-acc1-3e4ce68e5679" />
+
+#### 10) what is ECS ? EKS ? and ECS vs EKS
+
+<img width="857" height="716" alt="image" src="https://github.com/user-attachments/assets/f2514fb2-e8d8-4b0f-82ef-b1f52b55047e" />
+
+<img width="851" height="686" alt="image" src="https://github.com/user-attachments/assets/85c2e331-096c-45df-b0e8-82664a5d54f7" />
+
+<img width="797" height="581" alt="image" src="https://github.com/user-attachments/assets/76d94dc6-a6da-47c6-ab6c-1a8d509349ba" />
+
+#### 11) What is Fargate in AWS ?
+
+<img width="825" height="559" alt="image" src="https://github.com/user-attachments/assets/b080a2a6-2e98-4a63-a086-8dca830bebdc" />
+
+<img width="831" height="651" alt="image" src="https://github.com/user-attachments/assets/c193a71f-90a0-4047-a4e5-fb817d9a5b52" />
+
+<img width="856" height="648" alt="image" src="https://github.com/user-attachments/assets/a5fd8e4a-69d3-4d3f-9393-b04983621d22" />
+
+<img width="793" height="135" alt="image" src="https://github.com/user-attachments/assets/5ad53b05-eb5b-4ea0-a309-516424414595" />
+
+
+#### 12 ) What is Avalability zones in AWS
+
+<img width="839" height="717" alt="image" src="https://github.com/user-attachments/assets/d3c13233-68b8-4bca-a1af-b3c25c2ed2e5" />
+
+<img width="850" height="598" alt="image" src="https://github.com/user-attachments/assets/f1ae474e-7863-4d5d-9fd0-8d085cf378d1" />
+
+<img width="957" height="605" alt="image" src="https://github.com/user-attachments/assets/27ae4cd4-7a41-49cd-8d76-ffd1fbb4c78d" />
+
+<img width="828" height="680" alt="image" src="https://github.com/user-attachments/assets/8f2c6092-71f3-4259-9a62-2853c05fffbb" />
+
+#### 13) what is serverless architecture in aws Purpose and use cases , give in detail
+
+<img width="800" height="654" alt="image" src="https://github.com/user-attachments/assets/7358670b-9f41-4a84-bad5-71e1c5bb7782" />
+
+<img width="823" height="618" alt="image" src="https://github.com/user-attachments/assets/3d3b2d01-d0fc-4168-b7ed-b3cd247a695d" />
+
+<img width="808" height="256" alt="image" src="https://github.com/user-attachments/assets/e379e8c0-7db3-4562-b2fc-1d205a25c6ab" />
+
+<img width="848" height="549" alt="image" src="https://github.com/user-attachments/assets/70f6b5e8-ed54-4251-b0d7-721c85470387" />
+
+<img width="816" height="570" alt="image" src="https://github.com/user-attachments/assets/0eee593a-4418-4fcb-8050-03e56bfcfef2" />
+
+<img width="823" height="279" alt="image" src="https://github.com/user-attachments/assets/de51b93f-6d1a-4d13-a8b8-4faca9560622" />
+
+<img width="537" height="316" alt="image" src="https://github.com/user-attachments/assets/16812fa1-c58f-4666-8d10-3f8924abf880" />
+
+#### 17) What is provisioning in AWS
+
+<img width="860" height="751" alt="image" src="https://github.com/user-attachments/assets/8312700c-8757-45d4-bf73-8d4260ca1988" />
+
+<img width="915" height="716" alt="image" src="https://github.com/user-attachments/assets/83fab7ca-84b4-4d11-866c-9b1a309541ec" />
+
+* More details -> https://chatgpt.com/c/68e67914-88ac-8324-8d2a-0640b2920586
+
+#### 18) what is S3 bucket in AWS and what kind of storage it is offering and what are the levels in S3
+
+<img width="872" height="699" alt="image" src="https://github.com/user-attachments/assets/295f3fd9-a510-44de-93fc-499f195a0e17" />
+
+<img width="806" height="692" alt="image" src="https://github.com/user-attachments/assets/76970984-87c1-4586-b5e9-98d72c3a0838" />
+
+<img width="847" height="565" alt="image" src="https://github.com/user-attachments/assets/468cfaee-37f7-4a71-a705-dc87086b05cb" />
+
+<img width="1202" height="685" alt="image" src="https://github.com/user-attachments/assets/31d43c2b-91f8-4fe4-b45a-a984c15abab8" />
+
+<img width="905" height="556" alt="image" src="https://github.com/user-attachments/assets/f53d14a7-828f-4788-9b63-6cd8be6b42a7" />
+
+* In Details with example -> https://chatgpt.com/c/68e77314-3ec8-8322-828d-c92fe2ff0f79
+
+#### 19) What is mean by infrastructure as a service in AWS
+
+<img width="868" height="729" alt="image" src="https://github.com/user-attachments/assets/c39704b0-5b06-476d-ba55-32a2e1fdcc78" />
+
+<img width="973" height="500" alt="image" src="https://github.com/user-attachments/assets/19030dca-cf89-42b3-82e1-1c8387ac90f3" />
+
+<img width="476" height="342" alt="image" src="https://github.com/user-attachments/assets/aa577e8c-52a0-41d0-af97-e3325ac62ac3" />
+
+#### 20) How to scale up and scale down in AWS- EC2 spring boot example
+
+* In Detail -> https://chatgpt.com/c/68e779a5-68a8-8324-ba23-bad19e282596
+
+#### 21) What is mean by vertical and horizontal scaling in terms of Spring boot Application load. How to configure if I am using Open Shift cloud, and how to scale up and scale down
+
+* -> in Detail https://chatgpt.com/c/68e77b08-509c-8324-b7ba-27f0fd909563
